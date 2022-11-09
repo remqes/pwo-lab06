@@ -1,5 +1,12 @@
 package pwo.app;
 
+/**
+ * Klasa główna aplikacji, w zależnosci od ilości argumentów
+ * output jest zapisywany w pliku lub wyświetlany na konsoli
+ * 
+ * @author Michał Nurzyński
+ * @version 1.0.0
+ */
 public class Sequence {
     public static void main(String args[]) {
         switch(args.length) {

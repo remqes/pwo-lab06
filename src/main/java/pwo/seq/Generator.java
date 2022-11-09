@@ -3,6 +3,12 @@ package pwo.seq;
 import java.math.BigDecimal;
 import pwo.utils.SequenceGenerator;
 
+/**
+ * Klasa abstrakcyjna, która implementuje interfes SequenceGenerator
+ * 
+ * @author Michał Nurzyński
+ * @version 1.0.0
+ */
 abstract class Generator implements SequenceGenerator {
     protected int lastIndex = 0;
     protected BigDecimal current = null, f_1 = null, f_2 = null, f_3 = null;
